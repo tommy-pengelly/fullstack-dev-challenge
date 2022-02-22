@@ -63,9 +63,9 @@ I chose to use Formik as I have used it before and it contains almost all the fe
 
 When making the API calls onChange, it is likely the user will change multiple values at once, or more simply they will write large than single character values. This would typically trigger an api call each time,
 
-> As we type 100
-> typed: 1 -> call(1)
-> typed: 10 -> call(10)
+> As we type 100<br/>
+> typed: 1 -> call(1)<br/>
+> typed: 10 -> call(10)<br/>
 > typed: 100 -> call(100)
 
 in this example we would have made 3 api calls when we only care about the last call. Adding a debounce minimizes the number of calls we make, improving performance
