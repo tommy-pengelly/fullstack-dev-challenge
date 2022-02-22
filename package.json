@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "ts-node server.ts",
+    "server": "cd server && ts-node server.ts",
     "types": "tsc",
     "client": "node scripts/start-client.js",
     "install": "cd client && yarn install && cd .."

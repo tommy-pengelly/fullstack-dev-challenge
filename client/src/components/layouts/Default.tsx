@@ -9,7 +9,9 @@ type LayoutProps = {
 const DefaultLayout = ({ children }: LayoutProps) => (
     <Box display="flex" minHeight="100vh" height="100%" flexDirection="column">
         <NavHeader />
-        <>{children}</>
+        <Box flex={1} display={'flex'} flexDirection={'column'}>
+            {children}
+        </Box>
     </Box>
 )
 
