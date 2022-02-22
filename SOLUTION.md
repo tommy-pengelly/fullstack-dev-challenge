@@ -92,7 +92,11 @@ In this case the data layer is empty but I have included it for demonstration pu
 - API_BASE_URL should be moved to an environment file.
 - Calculation endpoint could be better suited as a post request to make use of the body.
 - I chose an iterative solution for calculating compound, but this could be done using a formulaic solution.
-- The Graph sizing was a little tricky, I wanted to maximise it's size, but I struggled to manage it's aspect ratio. This means that on some screen sizes it overflows out of the bottom and should be a fairly straight forward fixed given one spent the time on it.
+
+### Graph Sizing
+
+The Graph sizing was a little tricky, I wanted to maximise it's size, but I struggled to manage it's aspect ratio. This means that on some screen sizes it overflows out of the bottom and should be a fairly straight forward fixed given one spent the time on it.
+Additionally, when the window size was adjusted, the graph would resize to get bigger but it would not resize to get smaller.
 
 ### client types
 

@@ -47,7 +47,7 @@ const InputForm: React.FC<InputFormProps> = ({ onSubmit, initialValues }) => {
     }, [formik.values, formik.dirty])
 
     return (
-        <Box borderRight={'1px solid #efefef'} width={285}>
+        <Box borderRight={'1px solid #efefef'} width={285} minWidth={285}>
             <Box margin={'2rem'}>
                 <Stack>
                     <Text>Enter Values</Text>
